@@ -1,0 +1,180 @@
+<!--Dedicated to my Friend-->
+<!--Birthdate 31th Aug-->
+<!--No copying without credits-->
+<!--Thank you for so much love-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Happy Birthday</title>
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> 
+       <link rel="stylesheet" href="css/styles.css">
+       <script src="js/js.js"></script>
+    </head>
+    <body>
+    <div id="first" onclick="first()">
+        
+    </div>
+    <div id="hb">
+         <pre>
+  🎈🎂
+       Happy Birthday
+         
+       payal ❤️
+                🎂🎈</pre>
+        </div>
+    <div id="content">
+    <div class="Letters">
+        <span id="let">H</span>
+        <span id="let">A</span>
+        <span id="let">P</span>
+        <span id="let">P</span>
+        <span id="let">Y</span>
+        <br />
+        <br />
+        <br />
+        <hr />
+        <span id="let1">B</span>
+        <span id="let1">I</span>
+       <span id="let1">R</span>
+       <span id="let1"> T</span>
+       <span id="let1"> H</span>
+        <span id="let1">D</span>
+        <span id="let1">A</span>
+        <span id="let1">Y</span>
+        <br />
+        <br />
+        <br />
+        <hr />
+        <span id="let2">P</span>
+        <span id="let2">A</span>
+        <span id="let2">Y</span>
+        <span id="let2">A</span>
+        <span id="let2">L</span>
+
+    </div>
+    <hr id="h"/>
+    <div class="pic">
+          <div id="pic1">
+          <img src="img/dp.jpeg"/>
+          <!--For Future Work..
+          <div id="pic2">
+              
+          </div>
+          <div id="pic3">
+              
+          </div>-->
+           
+           </div>
+           
+           <hr/>
+           <div id="text">
+              <a href="https://www.sololearn.com/Profile/6578118/?ref=app"> PAYAL ❤️</a>
+              
+           </div>
+          
+       </div>
+       <input type="button"id="wi"onclick="wi()"value="Don't Click Me !!"/> 
+       <div class="wishes">
+       
+           <p id="w1"></p>
+           <p id="w2"></p>
+           <p id="w3"></p>
+       </div>
+    <script>
+         var w1="Many many Happy Returns of the day to "
+           var w2="My Dear Friend..The Diamond on earth.."
+           var w3="Wish you lots of happiness and lots of love🎈❤️🎈❤️🎈"
+           var i=0,j=0,k;
+           var last;
+           function wi()
+           {
+               type();
+           }
+           function type()
+           {
+               document.getElementById("w1").innerHTML
++=w1.charAt(i);
+    i++;
+    setTimeout(type,150)
+    last=w1.lastIndexOf(" ")
+
+    if(i==last)
+    {
+        j=0;
+        clearTimeout(type);
+        type1();
+    }
+           }
+           
+           
+           function type1()
+           {
+           
+              document.getElementById("w2").innerHTML
++=w2.charAt(j);
+    j++;
+    setTimeout(type1,150)
+    var last1=w2.lastIndexOf(".")
+    if(j==last1)
+    {
+        k=0;
+        clearTimeout(type1);
+        type2();
+    }
+           }
+           function type2()
+           {
+               document.getElementById("w3").innerHTML
++=w3.charAt(k);
+    k++;
+    setTimeout(type2,150)
+           }
+       </script>
+       
+      
+        
+       <!--<div class="cake">
+            <div class="lay2">
+               
+           </div>
+            <div class="lay3">
+               
+           </div>
+       </div>  Basic Cake😅-->
+       
+       <audio id="player" controls src="http://www.oddnews.in/wp-content/uploads/2018/10/origonal-happy-bday-many-people-voice.mp3"loop>
+       </audio>
+       <div>
+       <input type="Button"id="but"onclick="func()"value="Bring me the Cake!!"/>
+           
+       </div>
+       
+       
+       <script>
+           function func()
+{
+    document.getElementById("cake1").style.display="block";
+    document.getElementById("but").style.display="none";
+    document.getElementById("player").play();
+}
+       </script>
+        <div id="cake1">
+             <div class="flame">
+           
+       </div>
+            <div class="candle">
+               
+           </div>
+           <div class="text">
+               <span id="w">PAYAL</span>
+           </div>
+        </div>
+        
+        
+        </div>
+       
+    </body>
+</html>
